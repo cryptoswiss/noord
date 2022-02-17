@@ -1,19 +1,12 @@
 .container {
-  /* min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   width: 100vw;
-  background-color: rgb(0, 0, 200);
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  width:80%;
-  margin:3rem auto 0 auto;
+  width: 80%;
+  margin: 3rem auto 0 auto;
 }
 
 .gridFullSize {
@@ -23,62 +16,45 @@
   flex-wrap: wrap;
   width: 100vw;
   background-color: rgb(0, 0, 180);
-  padding:0 1rem;
+  padding: 0 1rem;
 }
 
 .gridFlex {
-  width:80%;
+  width: 80%;
   flex-wrap: wrap;
   display: flex;
   align-self: center;
-  margin:0 auto;
-  /* border-bottom-width: 1px;
-  border-bottom-color: #ffffff; */
+  margin: 0 auto;
+  margin-top: 2rem;
 }
 
 .gridContainer {
-  width:80%;
+  width: 80%;
   align-self: center;
   display: block;
 }
 
-.Flex {
-  width:80%;
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-}
-
 .FlexHighlight {
-  width:80%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   align-self: center;
   border-radius: 12px;
   padding: 2rem 2rem 0 2rem;
-  background-color: #FFAFC8;
+  background-color: #ffafc8;
   /* background-color: rgba(255, 255, 255, 0.1) */
 }
 
-.FlexLeft {
-  width:50%;
-}
-
 .FlexLeftDesktop {
-  width:50%;
+  width: 50%;
 }
 
 .FlexLeftMobile {
   display: none;
 }
 
-.FlexRight {
-  width:50%;
-}
-
-
 .Line {
-  width:100%;
+  width: 100%;
   height: 1px;
   background-color: #ffffff;
   margin-top: 12px;
@@ -100,50 +76,49 @@
 }
 
 .gridRight {
-  width:10%;
+  width: 10%;
   align-items: flex-end;
   justify-content: flex-end;
 }
 
 .gridCenter {
-  width:70%;
+  width: 70%;
   align-items: flex-start;
   justify-content: flex-start;
 }
-
 
 .ButtonContainer {
   margin-top: 1.5rem;
 }
 
-
 .Button {
   /* width: 240px;
   height: 4rem; */
-  padding:.5rem 2rem;
+  padding: 0.5rem 2rem;
   font-size: 1rem;
   text-align: left;
-  background-color: #fff;
-  border-radius:24px;
-  color: rgb(0, 0, 200);
+  background-color: #121212;
+  border-radius: 24px;
+  color: #fff;
   font-family: "Heavy";
+  border: 0;
+  cursor: pointer;
 }
-
 
 .textSlogan {
   font-size: 1.5rem;
   text-align: left;
   color: #ffffff;
   font-family: "Light";
-  padding-left:.5rem;
+  padding-left: 0.5rem;
 }
 
 .textLogo {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: left;
   color: #ffffff;
-  font-family: "Heavy";
-  padding-left:.5rem;
+  font-family: "Bold";
+  padding-left: 0.5rem;
 }
 
 .textSmall {
@@ -163,12 +138,10 @@
 }
 
 .grid {
-  flex:1;
+  flex: 1;
   flex-direction: row;
-  padding:1rem
+  padding: 1rem;
 }
-
-
 
 .main {
   padding: 1rem 0;
@@ -177,13 +150,68 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  background-color: rgb(0, 0, 200);
+}
+
+.Flex {
+  flex:1;
+  display: flex;
+  align-items:center;
+  margin: 0 10%;
+}
+
+.FlexPadding {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  /* padding-top: 8rem; */
+}
+
+.Header {
+  width: 100vw;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  /* position: fixed; */
+  z-index: 2;
+  padding:0 10%
+}
+
+.Logo {
+  align-self: center;
+}
+
+
+.FlexLeft {
+  flex: 1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.FlexRight {
+  flex: 2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.FlexLeftTwo {
+  flex: 2;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.FlexRightTwo {
+  flex: 1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .footer {
   width: 100%;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color:rgb(0, 0, 180);
+  background-color: #181818;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,7 +227,7 @@
   padding-right: 1rem;
 }
 
-.footerRight{
+.footerRight {
   width: 50%;
 }
 
@@ -213,15 +241,46 @@
   align-items: center;
 }
 
+.logo {
+  font-size: 2rem;
+  text-align: left;
+  color: #fff;
+  font-family: "Heavy";
+  letter-spacing: -1px;
+}
+
 .title {
   font-size: 2rem;
   line-height: 2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
   font-family: "Heavy";
   letter-spacing: -1px;
+}
+
+.titleDark {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #121212;
+  font-family: "Heavy";
+  letter-spacing: -1px;
+}
+
+.hero {
+  font-size: 4rem;
+  line-height: 3.6rem;
+  text-align: left;
+  color: #fff;
+  font-family: "Heavy";
+  letter-spacing: -1px;
+}
+
+h1 .hero span .highlight {
+  color: #0000ff;
 }
 
 .subtitle {
@@ -232,24 +291,21 @@
   font-family: "Light";
 }
 
-.titleDark {
-  font-size: 3rem;
-  line-height: 3rem;
-  margin-bottom: 1rem;
-  text-align: left;
-  color:rgb(0, 0, 200);
-  font-family: "Heavy";
-  letter-spacing: -2px;
-}
-
 .subtitleDark {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: left;
-  color:rgb(0, 0, 200);
+  color: rgb(0, 0, 200);
   font-family: "Light";
 }
 
+.subtitleDarkBold {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+  color: rgb(0, 0, 200);
+  font-family: "Bold";
+}
 
 .titleSection {
   font-size: 1.5rem;
@@ -265,8 +321,6 @@
   color: #ffffff;
   font-family: "Light";
 }
-
-
 
 .description {
   text-align: center;
@@ -286,13 +340,11 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-
 .cardImage {
-  width:200px;
+  width: 200px;
   height: 200px;
-  margin-right: 1.5rem;
-  border-radius: 1rem;
-  /* background-color:rgb(0, 0, 180); */
+  margin-right: 2rem;
+  margin-bottom: 2rem
 }
 
 .leftImage {
@@ -300,11 +352,14 @@
 }
 
 .cardText {
-  width:70%;
+  width: 70%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1rem;
 }
 
 .download {
-  width:100%;
+  width: 100%;
 }
 
 .card {
@@ -337,23 +392,35 @@
   line-height: 1.5;
 }
 
-p .leftAligned {
-  text-align: left;
-}
 
 .cardText p {
   margin: 0;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 24px;
   color: #fff;
-  font-family: "Light";
+  font-family: "Book";
+}
+
+.paragraph p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  font-family: "Book";
 }
 
 .logo {
   height: 1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 960px) {
+
+  .FlexPadding {
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+  }
+
 
   .gridFlex {
     display: block;
@@ -366,22 +433,19 @@ p .leftAligned {
   }
 
   .FlexHighlight {
-    width:"100%";
+    width: "100%";
     display: block;
     flex-direction: column;
     padding: 1rem;
   }
 
   .FlexLeftDesktop {
-    display: none
+    display: none;
   }
-  
+
   .FlexLeftMobile {
-    display: block
+    display: block;
   }
-
-  
-
 
   .footerSeparator {
     display: none;
@@ -393,21 +457,18 @@ p .leftAligned {
   }
 
   .titleSection {
-      text-align: center;
+    text-align: center;
   }
 
   .download {
-    width:100%;
+    width: 100%;
     margin-bottom: 2rem;
   }
 
-
-.textDownload {
-  font-size: 12px;
-  text-align: center;
-  color: #ffffff;
-  font-family: "Light";
-}
-  
-
+  .textDownload {
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Light";
+  }
 }

@@ -52,7 +52,9 @@ export default function Home() {
             <h1 className={styles.titleDark}>The Sharing App.</h1>
 
             <h1 className={styles.subtitleDark}>
+              <span className={styles.subtitleDarkBold}>
               One third of all food produced globally goes to waste.
+              </span>
               <br></br>
               <br></br>
               On Zero our aim is to reduce waste to save our planet. You’ll find
